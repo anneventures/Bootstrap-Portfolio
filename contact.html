@@ -14,7 +14,8 @@
       <header>
         <nav class="navbar navbar-light bg-light">
           <h1>Anne Simon</h1>
-
+          
+          <!--navigation-->
           <ul class="nav nav-pills">
             <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
@@ -27,14 +28,19 @@
         
         <form>
           <div class="form-row">
+            <!--takes up 6 grids in medium screen-->
             <div class="form-group col-md-6">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" placeholder="John Smith" required="required">
             </div>
+
+            <!--takes up 6 grids in medium screen-->            
             <div class="form-group col-md-6">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required="required">
             </div>
+
+            <!--takes up 12 grids in medium screen-->
             <div class="form-group col-md-12">
               <label for="message">Message</label>
               <textarea  class="form-control" rows="3" id="message" name="message" required="required"></textarea>
@@ -44,13 +50,14 @@
 
       </section>
 
-      <footer>
-
+    <!--sticky footer-->
+    <footer class="container-fluid">
+      <nav class="navbar fixed-bottom">          
         <p>Copyright &copy; 2018 | U of T SCS Coding Bootcamp</p>
+      </nav>
+    </footer>
 
-      </footer>
-
-    </div><!--end container-->
+   </div><!--end container-->
 
   </body>
 </html>
