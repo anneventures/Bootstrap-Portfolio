@@ -10,11 +10,12 @@
     <title>Anne Simon | About</title>
   </head>
   <body>
-    <div class="container">
+   <div class="container">
       <header>
         <nav class="navbar navbar-light bg-light">
           <h1>Anne Simon</h1>
 
+          <!--navigation-->
           <ul class="nav nav-pills">
             <li class="nav-item"><a class="nav-link active" href="index.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
@@ -23,18 +24,20 @@
         </nav>
       </header>
 
-      <section class="my-5">
-        <article>
-        
+      <section class="my-5">        
           <div class="row pl-3">           
 
+            <!--takes up all 12 grids with padding bottom of 2-->
             <div class="col-12 pb-2">
               <h2>About Me</h2>
             </div>
+
+            <!--takes up 3 grids-->
             <div class="col-3">
               <img src="images/anne.jpg">
             </div>
 
+            <!--takes up 9 grids for medium size screen-->
             <div class="col-md-9">
               <p>For the past few years, I have been involved in projects related to e-learning in healthcare alongside education specialists, clinicians, graphic designers, editors and IT staff. I am currently pursuing my studies in full stack web development in hopes to start some freelance projects on the side. </p>
               <p>This site showcases my web development projects and ways to contact me for work collaboration opportunities or just to say hi!</p>
@@ -42,17 +45,16 @@
             </div>
 
           </div><!--end row-->
-
-        </article>
       </section>
 
-      <footer>
-
+    <!--sticky footer-->
+    <footer class="container-fluid">
+      <nav class="navbar fixed-bottom">          
         <p>Copyright &copy; 2018 | U of T SCS Coding Bootcamp</p>
+      </nav>
+    </footer>
 
-      </footer>
-
-    </div><!--end container-->
+   </div><!--end container-->
 
   </body>
 </html>
